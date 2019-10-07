@@ -1,13 +1,3 @@
-// $('form').on('change', function() {
-
-//    console.log('change');
-//    if ($('form').parsley().isValid()) {
-//       $('#submit').prop('disabled', false).addClass('valid');
-//    } else {
-//       $('#submit').prop('disabled', 'disabled');
-//    }
-// });
-
 $(document).ready(function() {
    $('form').on('change', function() {
 
@@ -21,14 +11,7 @@ $(document).ready(function() {
           console.log('falso');
          $('#submit').prop('disabled', 'disabled');
       }
-
-      // var isValid = true;
-      // $('input').each( function() {
-      //    if ($(this).parsley().validate() !== true) isValid = false;
-      // });
-      // if (isValid) {
-      //    $('#submit').prop('disabled', false).addClass('valid');
-      // }
+      
    });
 
    $('#reset').click(function(e) {
