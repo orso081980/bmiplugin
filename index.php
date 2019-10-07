@@ -7,16 +7,6 @@ Description: A great plugin to calculate your weight
 Author: Maffei Marco
 */
 
-
-// add_shortcode('bmi_demo', 'bmi_init');
-
-// function my_form_shortcode() {
-//     ob_start();
-//     get_template_part('my_form_template');
-//     return ob_get_clean();   
-// } 
-// add_shortcode( 'my_form_shortcode', 'my_form_shortcode' );
-
 include 'style.php';
 
 function render_form_request($atts , $content){
